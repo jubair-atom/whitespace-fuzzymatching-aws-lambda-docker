@@ -1,0 +1,7 @@
+numpy
+spacy
+fuzzywuzzy
+hdbcli
+sentence_transformers
+pandas
+boto3
