@@ -152,6 +152,6 @@ def handler(event, context):
     output = {'BP_ID': result['Best Partner IDS'][0], 'BP_NAME': result['Best matching partners'][0], 'SCORE': result['Best Scores'][0], 'other_matches' :other_matches_list}
     
     return {
-        "statusCode":200, "body": output
+        "statusCode":200, "body": json.dumps(output)
     }
     
